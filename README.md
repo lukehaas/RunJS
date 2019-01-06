@@ -4,7 +4,7 @@
 
 Download the latest release [here](https://github.com/lukehaas/runjs/releases).
 
-RunJS is an JavaScript editor that auto-evaluates your code as you type and outputs the results to a console pane.
+RunJS is an JavaScript playground that auto-evaluates your code as you type and outputs the results to a console pane.
 
 ## Features
 
