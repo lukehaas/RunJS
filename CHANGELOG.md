@@ -1,3 +1,7 @@
+### Version 1.2.0 - 07 January 2019
+
+- Add support for installing Node packages
+
 ### Version 1.1.0 - 27 December 2018
 
 - Upgraded Electron to version 4.0.0
