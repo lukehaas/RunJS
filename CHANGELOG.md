@@ -1,3 +1,9 @@
+### Version 1.2.1 - 20 January 2019
+
+- Prevent autoeval on start if autoeval is disabled
+- Improve error messages for syntax issues
+- Fix issue #37 bug in handling async..await
+
 ### Version 1.2.0 - 07 January 2019
 
 - Add support for installing Node packages
