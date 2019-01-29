@@ -1,3 +1,10 @@
+### Version 1.2.1 - 29 January 2019
+
+- Fix issue #47 function declarations are remembered between executions
+- Fix issue #44 cmd+w should not quit the app
+- Fix issue #36 path is sometime undefined
+- Implement enhancement #15 zooming should increase font size
+
 ### Version 1.2.1 - 20 January 2019
 
 - Prevent autoeval on start if autoeval is disabled
