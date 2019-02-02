@@ -16,10 +16,16 @@ RunJS can import node packages from existing JavaScript projects by pointing it'
 
 ![image](docs/set-directory.png)
 
-Node packages can also be installed directly through this command palette, found in the `Action` menu.
+Node packages can also be installed directly through this window, opened from the `Action` menu.
 
 ![image](docs/install-npm-packages.png)
 
 RunJS also has a number of configurable options, accessed via the preferences window.
 
 ![image](docs/preferences.png)
+
+RunJS executes JavaScript against the following versions of Node, V8 and Chromium:
+
+Node: 10.11.0
+V8: 6.9.427.24-electron.0
+Chromium: 69.0.3497.106

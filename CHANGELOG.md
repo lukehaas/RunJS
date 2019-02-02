@@ -1,4 +1,7 @@
-### Version 1.2.1 - 29 January 2019
+### Version 1.2.3 - 02 February 2019
+- Guard against long running loops - fixing #42 and #6
+
+### Version 1.2.2 - 29 January 2019
 
 - Fix issue #47 function declarations are remembered between executions
 - Fix issue #44 cmd+w should not quit the app
