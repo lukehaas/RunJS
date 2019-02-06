@@ -1,3 +1,8 @@
+### Version 1.2.4 - 06 February 2019
+  - Fix issue #8 - dialog is hidden in vim command mode
+  - Fix issue #26 - setInterval keeps running
+  - Fix issue introduced in 1.2.3 that prevented the app quitting
+
 ### Version 1.2.3 - 02 February 2019
 - Guard against long running loops - fixing #42 and #6
 
