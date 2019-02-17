@@ -1,3 +1,13 @@
+### Version 1.3.0 - 17 February 2019
+  - Fix issue #48 - Babel stacktrace bug
+  - Add preference option for loop protection
+  - Set Working Directory now allows for importing local files
+  - Add shortcut for installing Node packages
+  - Add new window for viewing transpiled output
+  - Add preference option for holistic evaluation
+  - Add preference option to show undefined values in output
+  - Fix issue #51 - incorrect syntax highlighting for strings
+
 ### Version 1.2.4 - 06 February 2019
   - Fix issue #8 - dialog is hidden in vim command mode
   - Fix issue #26 - setInterval keeps running
@@ -10,7 +20,7 @@
 
 - Fix issue #47 function declarations are remembered between executions
 - Fix issue #44 cmd+w should not quit the app
-- Fix issue #36 path is sometime undefined
+- Fix issue #36 path is sometimes undefined
 - Implement enhancement #15 zooming should increase font size
 
 ### Version 1.2.1 - 20 January 2019
