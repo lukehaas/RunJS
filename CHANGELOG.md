@@ -1,3 +1,11 @@
+### Version 1.3.1 - 03 March 2019
+  - Fix issue #55 - quirky handling of string outputs
+  - Fix issue #54 - exception ordering issue
+  - Fix issue #52 - missing exception outputs
+  - Fix issue #50 - User defined window properties persisted
+  - Fix issue #14 - extra line-break at the end of output
+  - Fix line-number misalignment
+
 ### Version 1.3.0 - 17 February 2019
   - Fix issue #48 - Babel stacktrace bug
   - Add preference option for loop protection
