@@ -1,3 +1,9 @@
+### Version 1.4.0 - 10 March 2019
+  - Fix issue #58 - console formatting bug
+  - Divide preference options into tabbed sections
+  - Add ability to choose font options
+  - Log NPM errors
+
 ### Version 1.3.1 - 03 March 2019
   - Fix issue #55 - quirky handling of string outputs
   - Fix issue #54 - exception ordering issue
