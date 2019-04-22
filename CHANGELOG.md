@@ -1,3 +1,12 @@
+### Version 1.5.0 - 22 April 2019
+  - Fix issue #61 - Settings window won't open on Linux
+  - Support editor shortcuts on non-darwin systems
+  - Add ability to toggle output
+  - Add update option to menu
+  - Fix issue #69 - multiple declarations cause syntaxerror
+  - Fix issue #68 - Caching problem?
+  - Fix issue #66 - Quitting from macOS doc causes error
+
 ### Version 1.4.0 - 10 March 2019
   - Fix issue #58 - console formatting bug
   - Divide preference options into tabbed sections
