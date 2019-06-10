@@ -1,3 +1,8 @@
+### Version 1.5.1 - 10 June 2019
+  - Fix issue #67 - Output is scrambled in lines
+  - Fix issue #75 - Let `fs` work in working directory
+  - Fix issue #78 - Set working directory no longer working
+
 ### Version 1.5.0 - 22 April 2019
   - Fix issue #61 - Settings window won't open on Linux
   - Support editor shortcuts on non-darwin systems
