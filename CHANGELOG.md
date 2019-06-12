@@ -1,3 +1,6 @@
+### Version 1.5.2 - 12 June 2019
+  - Fix issue #79 - TypeScript won't run
+
 ### Version 1.5.1 - 10 June 2019
   - Fix issue #67 - Output is scrambled in lines
   - Fix issue #75 - Let `fs` work in working directory
