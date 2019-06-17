@@ -1,3 +1,7 @@
+## Version 1.5.3 - 17 June 2019
+  - Enhancement #82 - Increase font size to more than 30px
+  - Fix issue #81 - Assigned function call on last line does not evaluate
+
 ### Version 1.5.2 - 12 June 2019
   - Fix issue #79 - TypeScript won't run
 
