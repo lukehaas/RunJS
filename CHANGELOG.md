@@ -1,3 +1,6 @@
+## Version 1.5.4 - 03 July 2019
+  - Fix issue #85 - Set Work directory not working 
+
 ## Version 1.5.3 - 17 June 2019
   - Enhancement #82 - Increase font size to more than 30px
   - Fix issue #81 - Assigned function call on last line does not evaluate
