@@ -1,3 +1,9 @@
+## Version 1.6.0 - 08 August 2019
+  - Fix issue #88 - Set Work directory not working on Windows10
+  - Fix issue #87 - Can RunJS remember the window position/size between usages?
+  - Fix issue #84 - Themes do not apply except Dracula on 1.53
+  - Show welcome message when RunJS is opened for the first time
+
 ## Version 1.5.4 - 03 July 2019
   - Fix issue #85 - Set Work directory not working 
 
