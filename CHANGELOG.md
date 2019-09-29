@@ -1,3 +1,10 @@
+## Version 1.7.0 - 29 September 2019
+  - RunJS for Mac is now notarized
+  - Add ability to take screenshots
+  - Address #95 - process.memoryUsage() is unavailable
+  - Add ability to format code via Prettier
+  - Fix an issue with installing packages with long names
+
 ## Version 1.6.0 - 08 August 2019
   - Fix issue #88 - Set Work directory not working on Windows10
   - Fix issue #87 - Can RunJS remember the window position/size between usages?
