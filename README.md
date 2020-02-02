@@ -29,3 +29,7 @@ RunJS executes JavaScript against the following versions of Node, V8 and Chromiu
 - Node: 12.4.0
 - V8: 7.6.303.29-electron.0
 - Chromium: 76.0.3809.88
+
+## Acknowledgements
+
+RunJS icon designed by Giuseppe Caruso

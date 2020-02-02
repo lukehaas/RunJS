@@ -1,20 +1,26 @@
-## Version 1.7.0 - 29 September 2019
+### Version 1.8.0 - 02 February 2020
+  - New icon - designed by Giuseppe Caruso
+  - Add ability to set environment variables
+  - Fix for #100 - Loop when formatting
+  - Relax `process` stripping - #114
+
+### Version 1.7.0 - 29 September 2019
   - RunJS for Mac is now notarized
   - Add ability to take screenshots
   - Address #95 - process.memoryUsage() is unavailable
   - Add ability to format code via Prettier
   - Fix an issue with installing packages with long names
 
-## Version 1.6.0 - 08 August 2019
+### Version 1.6.0 - 08 August 2019
   - Fix issue #88 - Set Work directory not working on Windows10
   - Fix issue #87 - Can RunJS remember the window position/size between usages?
   - Fix issue #84 - Themes do not apply except Dracula on 1.53
   - Show welcome message when RunJS is opened for the first time
 
-## Version 1.5.4 - 03 July 2019
+### Version 1.5.4 - 03 July 2019
   - Fix issue #85 - Set Work directory not working 
 
-## Version 1.5.3 - 17 June 2019
+### Version 1.5.3 - 17 June 2019
   - Enhancement #82 - Increase font size to more than 30px
   - Fix issue #81 - Assigned function call on last line does not evaluate
 
@@ -68,33 +74,27 @@
 - Guard against long running loops - fixing #42 and #6
 
 ### Version 1.2.2 - 29 January 2019
-
 - Fix issue #47 function declarations are remembered between executions
 - Fix issue #44 cmd+w should not quit the app
 - Fix issue #36 path is sometimes undefined
 - Implement enhancement #15 zooming should increase font size
 
 ### Version 1.2.1 - 20 January 2019
-
 - Prevent autoeval on start if autoeval is disabled
 - Improve error messages for syntax issues
 - Fix issue #37 bug in handling async..await
 
 ### Version 1.2.0 - 07 January 2019
-
 - Add support for installing Node packages
 
 ### Version 1.1.0 - 27 December 2018
-
 - Upgraded Electron to version 4.0.0
 - Handle calls to `alert` and `confirm`
 - Improved handling for `console.log`
 - Added support for auto-closing brackets
 
 ### Version 1.0.2 - 10 December 2018
-
 - Fixed an issue with variables declared within brackets
 
 ### Version 1.0.1 - 02 December 2018
-
 - Improved support for TypeScript
