@@ -1,3 +1,12 @@
+### Version 1.9.0 - 08 May 2020
+  - Add clear option to edit menu
+  - Add Fantasque font
+  - Improve scrollbar styling
+  - Add ability to toggle Babel plugins from preferences
+  - Display sound icon when audible
+  - Fix issue #105 - Mute print function
+  - Fix issue #125 - Save cancellation error
+
 ### Version 1.8.0 - 02 February 2020
   - New icon - designed by Giuseppe Caruso
   - Add ability to set environment variables
