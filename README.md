@@ -6,6 +6,11 @@ Download the latest release [here](https://github.com/lukehaas/runjs/releases).
 
 RunJS is an JavaScript playground that auto-evaluates your code as you type and outputs the results to a console pane.
 
+## Roadmap
+
+https://trello.com/b/989D37fW/runjs-roadmap
+
+
 ## Features
 
 ![image](docs/runjs1.png)
