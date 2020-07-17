@@ -1,3 +1,24 @@
+### Version 1.10.0 - 17 July 2020
+  - Improve protection for long running scripts
+  - Environment variable inputs now select on focus
+  - Brief visual highlight for new NPM packages and environment variables
+  - Improve scrollbar styling
+  - NPM package table header is now sticky
+  - Fix issue #127 - nested objects and arrays are not expandable
+  - Fix string formatting and line break issues
+  - Add decorators as an option
+  - Rework handling of NPM
+  - Add support for console.table
+  - Replace esprima with estree for better modern syntax support
+  - Gutter folds now only show on hover
+  - Add support for matching highlights
+  - Make source type unambiguous for top level `this` support
+  - Change shortcut for formatting to Alt+Shift+F
+  - Add install assist for missing packages
+  - Add prettier formatting options
+  - Add sublime keymap
+  - Add option for auto-closing brackets
+
 ### Version 1.9.0 - 08 May 2020
   - Add clear option to edit menu
   - Add Fantasque font
