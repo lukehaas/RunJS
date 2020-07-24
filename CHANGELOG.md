@@ -1,3 +1,7 @@
+### Version 1.10.1 - 24 July 2020
+  - Fix issue with unchangeable babel options
+  - Add a new theme - 'Visual Studio'
+
 ### Version 1.10.0 - 17 July 2020
   - Improve protection for long running scripts
   - Environment variable inputs now select on focus
