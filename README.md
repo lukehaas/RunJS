@@ -33,9 +33,9 @@ RunJS also has a number of configurable options, accessed via the preferences wi
 
 RunJS executes JavaScript against the following versions of Node, V8 and Chromium:
 
-- Node: 12.13.0
-- V8: 8.0
-- Chromium: 80.0.3987.86
+- Node: 12.14.1
+- V8: 8.3
+- Chromium: 83.0.4103.122
 
 ## Acknowledgements
 

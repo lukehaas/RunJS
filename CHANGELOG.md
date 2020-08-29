@@ -1,3 +1,16 @@
+### Version 1.11.0 - 29 August 2020
+  - Add ability to match output line to source line
+  - Add support for console time methods
+  - Add support for find/replace
+  - Improve styling for forms on dark mode
+  - Add support for context-menu
+  - Improve support for promises
+  - Tabbing a selected now indents it
+  - Update V8 to version 8.3
+  - Update Node to version 12.14.1
+  - Update Chromium to version 83
+  - Fix issue #167 - JSON formatting issue
+
 ### Version 1.10.1 - 24 July 2020
   - Fix issue with unchangeable babel options
   - Add a new theme - 'Visual Studio'
