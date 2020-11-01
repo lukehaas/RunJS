@@ -1,3 +1,15 @@
+### Version 1.12.0 - 01 November 2020
+  - Add auto-scroll option
+  - Add ability to display instance properties and __proto__
+  - Add loading spinner to show when code is running
+  - Fix for bug that could cause duplicate output results to appear
+  - Fix for bug that caused searching for namespaced NPM packages to fail
+  - Fix for bug that caused removed environment variables to still be available
+  - Performance improvements
+  - Update V8 to 8.5
+  - Update Node to 12.6.3
+  - Update Chromium to version 85
+
 ### Version 1.11.0 - 29 August 2020
   - Add ability to match output line to source line
   - Add support for console time methods
