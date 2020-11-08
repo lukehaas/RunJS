@@ -1,3 +1,10 @@
+### Version 1.12.2 - 08 November
+  - Fix issue #193 - closure issue
+  - Fix issue with displaying objects with over 800 properties
+
+### Version 1.12.1 - 02 November
+  - Fix code caching issue
+
 ### Version 1.12.0 - 01 November 2020
   - Add auto-scroll option
   - Add ability to display instance properties and __proto__
