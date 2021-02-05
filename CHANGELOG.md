@@ -1,3 +1,11 @@
+### Version 1.13.0 - 05 February 2021
+  - Add ability to stop execution of script
+  - Fix issue where focus would be lost when clicking on the title bar
+  - Fix issue where the RunJS window wouldn't re-opened when opening a file from the File menu
+  - Fix issue where errors from promises were not being displayed
+  - Fix issue where some fonts were mislabeled
+  - Refactored some core parts of RunJS for performance improvements
+
 ### Version 1.12.2 - 08 November
   - Fix issue #193 - closure issue
   - Fix issue with displaying objects with over 800 properties
