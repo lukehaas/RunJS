@@ -1,3 +1,6 @@
+### Version 1.13.1 - 07 February 2021
+ - Fix issue #215 - unable to copy output text
+
 ### Version 1.13.0 - 05 February 2021
   - Add ability to stop execution of script
   - Fix issue where focus would be lost when clicking on the title bar
