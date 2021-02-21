@@ -1,3 +1,14 @@
+### Version 1.14.0 - 21 February 2021
+ - Add Apple M1 support
+ - Add builds for Linux ARMv7 and ARM64
+ - Add support for console.clear()
+ - Core-js polyfills are no-longer included if Babel is disabled
+ - Fix issues with menus on first launch
+ - Update V8 to version 8.7
+ - Update Node to version 12.18.3
+ - Update Chromium to version 87
+ - Fix issue #225 - output issue
+
 ### Version 1.13.1 - 07 February 2021
  - Fix issue #215 - unable to copy output text
 
