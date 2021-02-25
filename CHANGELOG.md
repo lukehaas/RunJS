@@ -1,3 +1,5 @@
+### Version 1.14.1 - 25 February 2021
+ - Fix issue with opening menu windows on Windows.
 ### Version 1.14.0 - 21 February 2021
  - Add Apple M1 support
  - Add builds for Linux ARMv7 and ARM64
