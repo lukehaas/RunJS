@@ -1,3 +1,15 @@
+### Version 1.15.0 - 09 April 2021
+ - Increase accuracy of output
+ - Errors are no-longer shown in isolation - where appropriate
+ - Improved output for async and generator functions
+ - Proxies and Promises and no-longer displayed unwrapped in the output
+ - Maps and Sets now show values in the output
+ - Fixed an issue where NPM would fail to install packages for some users.
+ - Fixed an error that occurred when opening the About dialog on Linux.
+ - Updated V8 to version 8.9
+ - Updated Node to version 14.16.0
+ - Updated Chromium to version 89
+
 ### Version 1.14.1 - 25 February 2021
  - Fix issue with opening menu windows on Windows.
 ### Version 1.14.0 - 21 February 2021
