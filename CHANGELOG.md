@@ -1,3 +1,6 @@
+### Version 1.15.1 - 11 April 2021
+ - Fix an issue that caused displaying output to be slow on Windows
+
 ### Version 1.15.0 - 09 April 2021
  - Increase accuracy of output
  - Errors are no-longer shown in isolation - where appropriate
