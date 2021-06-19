@@ -1,3 +1,18 @@
+### Version 2.0.0 - 19 June 2021
+- Added support for multiple tabs
+- Added support for autocomplete
+- Added support for type checking
+- Added a new menu called Tools
+- Moved NPM Package Management and Environment Variable Management under the new Tools menu
+- Updated app icon
+- Added two new themes - SynthWave '84 and Shades of Purple
+- Made Babel presets configurable
+- Added a new Babel plugin - plugin-proposal-async-do-expressions
+- Changed the way transpiled code is shown - it can now be displayed in the main output pane
+- Fixed an issue that caused internal packages to be accessible as imports
+- Fixed an issue with multi-line template strings
+- Fixed an issue with regex output styling
+
 ### Version 1.15.1 - 11 April 2021
  - Fix an issue that caused displaying output to be slow on Windows
 
