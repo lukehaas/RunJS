@@ -1,3 +1,7 @@
+### Version 2.0.1 - 26 June 2021
+- Fixed an issue that caused the preferences window to be clipped on Windows.
+- Fixed an issue with importing local files.
+
 ### Version 2.0.0 - 19 June 2021
 - Added support for multiple tabs
 - Added support for autocomplete
