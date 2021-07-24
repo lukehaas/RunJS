@@ -1,3 +1,17 @@
+### Version 2.1.0 - 24 July 2021
+- Added ability to switch between horizontal and vertical layout.
+- Added a new premium theme, One Dark.
+- Added a preference option to hide the tab bar when only one tab is present.
+- Upgraded Node to 14.16.0.
+- Upgraded Chromium to 91.
+- Upgraded V8 to 9.1.
+- Optimised and improved the formatting method.
+- Fixed output highlighting issues for symbols and regex.
+- Fixed a language service disconnection issue.
+- Fixed an issue that caused unnecessary re-runs when toggling Babel.
+- Fixed an issue with toolbar height on macOS Big Sur.
+- Added more shortcuts for navigating tabs.
+
 ### Version 2.0.1 - 26 June 2021
 - Fixed an issue that caused the preferences window to be clipped on Windows.
 - Fixed an issue with importing local files.
