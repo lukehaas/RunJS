@@ -15,8 +15,8 @@ TypeScript and modern JavaScript features are supported through Babel transpilat
 RunJS executes JavaScript against the following versions of Node, V8 and Chromium:
 
 - Node: 14.16.0
-- V8: 8.9
-- Chromium: 89
+- V8: 9.1
+- Chromium: 91
 
 ## Acknowledgements
 
