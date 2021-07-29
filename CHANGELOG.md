@@ -1,3 +1,6 @@
+### Version 2.1.1 - 26 July 2021
+- Fixed an issue that caused Intel mac users to be auto-updated onto an arm build
+
 ### Version 2.1.0 - 24 July 2021
 - Added ability to switch between horizontal and vertical layout.
 - Added a new premium theme, One Dark.
