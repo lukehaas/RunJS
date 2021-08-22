@@ -1,3 +1,10 @@
+### Version 2.1.3 - 22 August 2021
+- Fixed an issue with escaped line-breaks in output.
+- Improved accuracy of line matching in some scenarios.
+- Added more shortcuts for tab navigation.
+- Fixed an issue that could cause language services to not start on
+- Windows machines with spaces in the directory path.
+
 ### Version 2.1.1 - 26 July 2021
 - Fixed an issue that caused Intel mac users to be auto-updated onto an arm build
 
