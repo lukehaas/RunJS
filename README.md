@@ -12,12 +12,6 @@ RunJS is an JavaScript playground that auto-evaluates your code as you type and 
 
 TypeScript and modern JavaScript features are supported through Babel transpilation. Additionally, Node and browser APIs are available.
 
-RunJS executes JavaScript against the following versions of Node, V8 and Chromium:
-
-- Node: 14.16.0
-- V8: 9.1
-- Chromium: 91
-
 ## Acknowledgements
 
 RunJS icon designed by Giuseppe Caruso
