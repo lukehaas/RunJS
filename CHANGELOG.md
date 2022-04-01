@@ -1,3 +1,15 @@
+### Version 2.3.0 - 05 February 2022
+
+- Output URLs can now be opened via cmd/ctrl-click.
+- Added support for console.assert().
+- Added a shortcut and menu item for toggling block comments.
+- Tabs can now be closed by clicking the middle mouse button.
+- Fixed an issue with the comment shortcut not working on international keyboards.
+- Fixed an issue that caused the save-as modal to appear when saving a newly opened file.
+- Fixed an issue that could cause line duplication when formatting code.
+- Improved the way system fonts are retrieved.
+- Added support for Spanish.
+
 ### Version 2.2.2 - 20 December 2021
 
 - Add ability to set tab titles.
