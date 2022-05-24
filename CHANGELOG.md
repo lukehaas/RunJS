@@ -1,3 +1,16 @@
+### Version 2.4.0 - 24 May 2022
+
+- Type information and relevant documentation can now be displayed on hover.
+- Function signatures can now be displayed while typing.
+- Added an option to confirm before closing a tab.
+- Editor and output panes can now be scrolled synchronously.
+- Windows and Linux have an updated UI with a more minimal appearance.
+- Updated the way formatting options are managed.
+- Added 'Stop' and 'Kill' items to the Action menu.
+- Upgraded Node to version 16.13.2.
+- Upgraded Chromium to version 100.
+- Upgraded V8 to version 10.
+
 ### Version 2.3.0 - 05 February 2022
 
 - Output URLs can now be opened via cmd/ctrl-click.
