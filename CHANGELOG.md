@@ -1,3 +1,15 @@
+### Version 2.5.0 - 28 June 2022
+
+- Add support for snippets.
+- Some preference options now have tooltips to better explain their function.
+- Autocomplete suggestions now have icons.
+- Fixed an issue that could cause the menu to be unresponsive on Windows and Linux.
+- Updated the naming for items in the Tools menu.
+
+### Version 2.4.1 - 25 May 2022
+
+- Fix an issue with sync scrolling.
+
 ### Version 2.4.0 - 24 May 2022
 
 - Type information and relevant documentation can now be displayed on hover.
