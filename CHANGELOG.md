@@ -1,3 +1,7 @@
+### Version 2.5.1 - 05 July 2022
+
+- Fix an issue that affected light theme icons.
+
 ### Version 2.5.0 - 28 June 2022
 
 - Add support for snippets.
