@@ -1,3 +1,13 @@
+### Version 2.6.0 - 17 August 2022
+
+- Added support for bundling to enable ESM imports
+- Added Ayu theme
+- Minor UI tweaks to snippets and environment variable windows
+- Guard against pasting very large files
+- Upgraded Node to 16.14.2
+- Upgraded Chromium to 102
+- Upgraded V8 to 10.2
+
 ### Version 2.5.1 - 05 July 2022
 
 - Fix an issue that affected light theme icons.
