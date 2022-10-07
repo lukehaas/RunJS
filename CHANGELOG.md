@@ -1,3 +1,18 @@
+### Version 2.7.0 - 05 October 2022
+
+- Add cursor position placeholder to snippets
+- Rename the "Transpilation" tab to "Build"
+- Move the preference option for bundling from the advanced tab to the build tab
+- Prompt to save when closing a tab that has previously been saved and now has unsaved changes
+- Files can now be opened via drag and drop
+- Improved guarding against infinite loops
+- Added icons to the layout options in the view menu
+- Added a helpful tooltip to the environment variables window
+- Added a context menu to the burger menu on Windows
+- Upgraded Node to version 16.16.0
+- Upgraded Chromium to version 106
+- Upgraded V8 to version 10.6
+
 ### Version 2.6.0 - 17 August 2022
 
 - Added support for bundling to enable ESM imports
