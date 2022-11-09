@@ -12,6 +12,11 @@ RunJS is an JavaScript playground that auto-evaluates your code as you type and 
 
 TypeScript and modern JavaScript features are supported through Babel transpilation. Additionally, Node and browser APIs are available.
 
+## Feature Highlights
+
+[TypeScript Playground](https://runjs.app/typescript-playground)
+[JavaScript Sandbox](https://runjs.app/javascript-sandbox)
+
 ## Acknowledgements
 
 RunJS icon designed by Giuseppe Caruso
