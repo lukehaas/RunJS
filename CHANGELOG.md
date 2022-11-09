@@ -1,4 +1,11 @@
-### Version 2.7.0 - 05 October 2022
+### Version 2.7.3 - 09 November 2022
+
+- Make autocomplete case insensitive.
+- Fix an issue that caused snippet suggestions not to appear when writing their full alias.
+- Fix an issue that caused language services to fail for some Windows users.
+- Remove support for deep links.
+
+### Version 2.7.1 - 05 October 2022
 
 - Add cursor position placeholder to snippets
 - Rename the "Transpilation" tab to "Build"
