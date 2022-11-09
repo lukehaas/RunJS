@@ -14,8 +14,8 @@ TypeScript and modern JavaScript features are supported through Babel transpilat
 
 ## Feature Highlights
 
-[TypeScript Playground](https://runjs.app/typescript-playground)
-[JavaScript Sandbox](https://runjs.app/javascript-sandbox)
+- [TypeScript Playground](https://runjs.app/typescript-playground)
+- [JavaScript Sandbox](https://runjs.app/javascript-sandbox)
 
 ## Acknowledgements
 
