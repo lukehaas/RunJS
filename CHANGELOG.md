@@ -1,3 +1,11 @@
+### Version 2.7.4 - 09 December 2022
+
+- General improvements to error handling.
+- Better handling of shortcuts when windows are open.
+- Update TypeScript to version 4.9.
+- Fix missing install button when importing mising packages.
+- Fix an issue that caused tsserver to remain running after quitting.
+
 ### Version 2.7.3 - 09 November 2022
 
 - Make autocomplete case insensitive.
