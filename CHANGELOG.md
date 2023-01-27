@@ -1,3 +1,12 @@
+### Version 2.7.5 - 26 January 2023
+
+- Fix an issue that caused loop protection to always be enabled.
+- Fix an issue that caused inconsistent positioning of some error messages.
+- Fix an issue that caused some web requests to be blocked.
+- Improvements to how prototypes are displayed in output results.
+- Nested objects in output results are now auto-folded.
+- Improvements to module scoping when setting a working directory.
+
 ### Version 2.7.4 - 09 December 2022
 
 - General improvements to error handling.
