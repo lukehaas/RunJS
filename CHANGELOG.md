@@ -1,3 +1,15 @@
+### Version 2.8.0 - 06 March 2023
+
+- Add support for top-level await.
+- Change the way auto-updates are handled.
+- Rename Preferences to Settings.
+- Fix a Prettier code formatting issue.
+- Fix an issue that caused some system fonts to not appear in the font list.
+- Fix an issue that could cause RunJS to open off-screen on Windows.
+- Upgrade Node to 16.17.1.
+- Upgrade Chromium to 108.
+- Upgrade V8 to 10.8.
+
 ### Version 2.7.5 - 26 January 2023
 
 - Fix an issue that caused loop protection to always be enabled.
