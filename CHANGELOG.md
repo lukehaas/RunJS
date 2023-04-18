@@ -1,3 +1,12 @@
+### Version 2.9.0 - 18 April 2023
+- Outdated NPM packages can now be updated.
+- Fix an issue that caused the formatting settings to always display default values.
+- Auto fold proto properties in output results.
+- Upgraded Node to version 18.14.0.
+- Upgraded Chromium to version 112.
+- Upgraded V8 to version 11.2.
+- Dropped support for Windows 7 and Windows 8.
+
 ### Version 2.8.0 - 06 March 2023
 
 - Add support for top-level await.
