@@ -9,7 +9,7 @@ Download the latest release [here](https://github.com/lukehaas/runjs/releases).
 ## Feature Highlights
 
 - [TypeScript Playground](https://runjs.app/typescript-playground)
-- [JavaScript Sandbox](https://runjs.app/javascript-sandbox)
+- [JavaScript Compiler](https://runjs.app/javascript-compiler)
 
 ## Acknowledgements
 
