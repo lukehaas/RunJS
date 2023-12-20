@@ -1,3 +1,15 @@
+### Version 2.10.1 - 20 December 2023
+- Add support for regular expression pattern modifiers plugin proposal.
+- Add support for optional chaining assignment plugin proposal.
+- Add tab context menu options for closing other tabs and closing tabs to the right.
+- Add support for trailing commas in generic types.
+- Improve handling for custom fonts.
+- Support TypeScript version 5.2.
+- Upgrade Node to version 18.16.1.
+- Upgrade Chromium to version 116.
+- Upgrade V8 to version 11.2.
+- Various bug fixes.
+
 ### Version 2.9.0 - 18 April 2023
 - Outdated NPM packages can now be updated.
 - Fix an issue that caused the formatting settings to always display default values.
