@@ -1,3 +1,13 @@
+### Version 2.11.0 - 24 February 2024
+- Add ability to re-open closed tabs.
+- Output context menu improvements.
+- Change auto-save to occur on change instead of run.
+- Improve handling of extra wide tooltips.
+- Prevent pasting when closing a tab with the middle mouse click on Linux.
+- Upgrade Node to 20.9.0.
+- Upgrade Chromium to 122.
+- Upgrade V8 to 12.2.
+
 ### Version 2.10.1 - 20 December 2023
 - Add support for regular expression pattern modifiers plugin proposal.
 - Add support for optional chaining assignment plugin proposal.
