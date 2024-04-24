@@ -1,3 +1,14 @@
+### Version 2.12.0 - 24 April 2024
+- Improved support for ES modules
+- Updated build options to move away from Babel naming conventions
+- Tab titles now default to the first line of text within the associated editor
+- Added the ability to import and export snippet libraries
+- Added the ability to toggle syntax highlighting on output results
+- Added a shortcut for displaying completion suggestions
+- Rename the runtime values setting to expression results
+- Line matching now appends values to lines if the source line is the same
+- Deleting snippets now requires confirmation
+
 ### Version 2.11.0 - 24 February 2024
 - Add ability to re-open closed tabs.
 - Output context menu improvements.
