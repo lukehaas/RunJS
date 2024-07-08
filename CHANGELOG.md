@@ -1,3 +1,6 @@
+### Version 2.12.1 - 21 May 2024
+- Fix an issue that caused file content to be loaded twice when opening a file.
+
 ### Version 2.12.0 - 24 April 2024
 - Improved support for ES modules
 - Updated build options to move away from Babel naming conventions
