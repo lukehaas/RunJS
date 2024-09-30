@@ -28,11 +28,6 @@ Download the latest release [here](https://runjs.app/releases/latest).
 - [Issue tracker](https://github.com/lukehaas/RunJS/issues)
 - [Support](mailto:mail@runjs.app)
 
-## Feature Highlights
-
-- [TypeScript Playground](https://runjs.app/typescript-playground)
-- [JavaScript Compiler](https://runjs.app/javascript-compiler)
-
 ## Acknowledgements
 
 RunJS icon designed by Giuseppe Caruso
