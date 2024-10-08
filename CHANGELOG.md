@@ -1,3 +1,16 @@
+### Version 3.0.3 - 08 October 2024
+- AI chat - chat with Open AI models for code generation and questions.
+- Improved support for top-level await.
+- Added an activity bar.
+- Added support for alert(), confirm() and prompt().
+- Various performance improvements.
+- Increase hover delay for inline tooltips.
+- Added icons to settings tabs.
+- Improved support for installing native modules.
+- Upgraded Node.js to version 20.15.1.
+- Upgraded Chromium to version 126.
+- Upgraded V8 to version 12.6.
+
 ### Version 2.12.1 - 21 May 2024
 - Fix an issue that caused file content to be loaded twice when opening a file.
 
