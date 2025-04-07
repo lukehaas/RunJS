@@ -1,0 +1,14 @@
+name: Release Webhook
+on:
+  release:
+    types: [published]
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send POST request
+        run: |
+          curl -X POST -H "Content-Type: application/json" -d '{"appId": $APP_ID, "releaseId": "${{ github.event.release.id }}"}' $WEBHOOK_URL
+        env:
+          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+          APP_ID: ${{ secrets.APP_ID }}
