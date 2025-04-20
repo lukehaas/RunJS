@@ -1,3 +1,18 @@
+### Version 3.1.0 - 20 April 2025
+- Add new Magic Comment feature
+- Updated Open AI model list
+- Improved AI context
+- Add the ability to stop AI content generation
+- New ColorCode theme
+- Added an NPM Packages button to the activity bar
+- Fixed an issue that caused values set via prompt() to be undefined
+- Fixed an issue with cursor positioning in indented snippets
+- Improved handling for tabs that have become unresponsive
+- Improved formatting method
+- Upgraded Node.js to version 20.16.0.
+- Upgraded Chromium to version 128.
+- Upgraded V8 to version 12.8.
+
 ### Version 3.0.3 - 08 October 2024
 - AI chat - chat with Open AI models for code generation and questions.
 - Improved support for top-level await.
