@@ -1,3 +1,6 @@
+### Version 3.1.1 - 29 April 2025
+- Fix an issue that affected searching for snippets
+
 ### Version 3.1.0 - 20 April 2025
 - Add new Magic Comment feature
 - Updated Open AI model list
