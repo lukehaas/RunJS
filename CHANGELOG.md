@@ -1,3 +1,6 @@
+### Version 3.1.2 - 10 May 2025
+- Fix a backwards compatibility issue that affected people downgrading to older RunJS versions.
+
 ### Version 3.1.1 - 29 April 2025
 - Fix an issue that affected searching for snippets
 
