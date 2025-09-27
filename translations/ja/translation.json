@@ -121,7 +121,7 @@
     "wait": "待機",
     "tabUnresponsive": "タブの応答なし",
     "curentTabUnresponsive": "現在のタブが応答しなくなりました。",
-    "welcome": "/*👋 RunJS へようこそ 🚀\n*\n* まずはコードを書いてみましょう\n*\n* 記述した関数ごとに、右側に結果が表示されます 👉\n*/\n'Hello, World! 🌎';\n\nMath.pow(5, 5);\n\nawait Promise.resolve('Top-level await 🤩');\n\n[1, 2, 3, 4].map(num => num * 2);\n\n// Expressions are logged without needing console.log() 🤯\n\n/*\n* RunJSを認証すると制限がなくなり、さらに多くの機能にアクセスできるようになります :\n* - NPMパッケージのインストール\n* - 複数のタブを開く\n* - スニペットの作成\n* - マジックコメントの使用 // ?\n* - そしてRunJSの継続的な開発をサポートする 😀\n*\n* コーディングを楽しんでください！ 🎉\n*/"
+    "welcome": "/*👋 RunJS へようこそ 🚀\n*\n* まずはコードを書いてみましょう\n*\n* 記述した関数ごとに、右側に結果が表示されます 👉\n*/\n'Hello, World! 🌎';\n\nMath.pow(5, 5);\n\nawait Promise.resolve('Top-level await 🤩');\n\n[1, 2, 3, 4].map(num => num * 2);\n\n// Expressions are logged without needing console.log() 🤯\n\n/*\n* RunJSを認証すると制限がなくなり、さらに多くの機能にアクセスできるようになります :\n* - NPMパッケージのインストール\n* - 複数のタブを開く\n* - スニペットの作成\n* - マジックコメントの使用 // ?\n* - そしてRunJSの継続的な開発をサポートする\n*\n* コーディングを楽しんでください！ 🎉\n*/"
   },
   "common": {
     "run": "実行",
@@ -148,7 +148,10 @@
     "npmPackages": "NPM パッケージ",
     "newChat": "新しいチャット",
     "aiGreeting": "<p>こんにちは。何かご用ですか？</p>",
-    "aiNoKey": "<p>この機能を使用するには、 <a href='#runjs-settings'>設定</a>に OpenAI API キーを入力してください。</p><p>OpenAI APIキーの取得方法については、OpenAIのドキュメントを参照してください : <a href='https://platform.openai.com/docs/quickstart'>https://platform.openai.com/docs/quickstart</a></p>",
+    "openAiNoApiKey": "<p>この機能を使用するには、 <a href='#runjs-settings'>設定</a>に OpenAI API キーを入力してください。</p><p>OpenAI APIキーの取得方法については、OpenAIのドキュメントを参照してください : <a href='https://platform.openai.com/docs/quickstart'>https://platform.openai.com/docs/quickstart</a></p>",
+    "geminiNoApiKey": "<p>この機能を使用するには、 <a href='#runjs-settings'>設定</a>に Gemini API キーを入力してください。</p><p>Gemini APIキーの取得方法については、Geminiのドキュメントを参照してください : <a href='https://ai.google.dev/gemini-api/docs/api-key'>https://ai.google.dev/gemini-api/docs/api-key</a></p>",
+    "mistralNoApiKey": "<p>この機能を使用するには、 <a href='#runjs-settings'>設定</a>に Mistral AI API キーを入力してください。</p><p>Mistral AI APIキーの取得方法については、Mistral AIのドキュメントを参照してください : <a href='https://docs.mistral.ai/getting-started/quickstart/'>https://docs.mistral.ai/getting-started/quickstart/</a></p>",
+    "anthropicNoApiKey": "<p>この機能を使用するには、 <a href='#runjs-settings'>設定</a>に Anthropic API キーを入力してください。</p><p>Anthropic APIキーの取得方法については、Anthropicのドキュメントを参照してください : <a href='https://docs.claude.com/en/api/overview'>https://docs.claude.com/en/api/overview</a></p>",
     "send": "送信 (Enter)",
     "enterPrompt": "ここにプロンプトを入力"
   },
@@ -268,17 +271,18 @@
     "activityBar": "アクティビティバー",
     "activityBarDescription": "アクティビティバーを表示",
     "language": "言語",
-    "english": "英語",
-    "spanish": "スペイン語",
+    "english": "English",
+    "spanish": "Español",
     "japanese": "日本語",
+    "chinese": "中文",
     "changeAfterRestart": "変更はアプリを再起動後に適用されます。",
     "transform": "変換",
     "proposals": "提案",
     "topLevelAwait": "トップレベルawait",
     "topLevelAwaitDescription": "トップレベルawait を有効にする",
     "topLevelAwaitHint": "トップレベルの await は式の結果と互換性がありません。",
-    "aiModel": "OpenAI モデル",
-    "openAiKey": "OpenAI API キー"
+    "aiModel": "モデル",
+    "aiApiKey": "API キー"
   },
   "license": {
     "deactivateLicense": "ライセンスの無効化",

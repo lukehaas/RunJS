@@ -121,7 +121,7 @@
     "wait": "等待",
     "tabUnresponsive": "标签页无响应",
     "curentTabUnresponsive": "当前标签页已无响应。",
-    "welcome": "/*👋 欢迎使用 RunJS 🚀\n*\n* 开始使用，只需尝试编写一些代码\n*\n* 每个表达式的结果会显示在右侧 👉\n*/\n'Hello, World! 🌎';\n\nMath.pow(5, 5);\n\nawait Promise.resolve('顶层 await 🤩');\n\n[1, 2, 3, 4].map(num => num * 2);\n\n// 表达式无需使用 console.log() 即可自动输出 🤯\n\n/*\n* 激活 RunJS 可解锁更多功能，包括：\n* - 安装 NPM 包\n* - 打开多个标签页\n* - 创建代码片段\n* - 使用魔法注释 // ?\n* - 支持 RunJS 持续开发 😀\n*\n* 编码愉快！🎉\n*/"
+    "welcome": "/*👋 欢迎使用 RunJS 🚀\n*\n* 开始使用，只需尝试编写一些代码\n*\n* 每个表达式的结果会显示在右侧 👉\n*/\n'Hello, World! 🌎';\n\nMath.pow(5, 5);\n\nawait Promise.resolve('顶层 await 🤩');\n\n[1, 2, 3, 4].map(num => num * 2);\n\n// 表达式无需使用 console.log() 即可自动输出 🤯\n\n/*\n* 激活 RunJS 可解锁更多功能，包括：\n* - 安装 NPM 包\n* - 打开多个标签页\n* - 创建代码片段\n* - 使用魔法注释 // ?\n* - 支持 RunJS 持续开发\n*\n* 编码愉快！🎉\n*/"
   },
   "common": {
     "run": "运行",
@@ -148,7 +148,10 @@
     "npmPackages": "NPM 包",
     "newChat": "新建聊天",
     "aiGreeting": "<p>你好，我能帮你做什么？</p>",
-    "aiNoKey": "<p>要使用此功能，请在<a href='#runjs-settings'>设置</a>中输入你的 OpenAI API 密钥。</p><p>关于如何获取 OpenAI API 密钥，请参考 OpenAI 文档：<a href='https://platform.openai.com/docs/quickstart'>https://platform.openai.com/docs/quickstart</a></p>",
+    "openAiNoApiKey": "<p>要使用此功能，请在<a href='#runjs-settings'>设置</a>中输入你的 OpenAI API 密钥。</p><p>关于如何获取 OpenAI API 密钥，请参考 OpenAI 文档：<a href='https://platform.openai.com/docs/quickstart'>https://platform.openai.com/docs/quickstart</a></p>",
+    "geminiAiNoApiKey": "<p>要使用此功能，请在<a href='#runjs-settings'>设置</a>中输入你的 Gemini API 密钥。</p><p>关于如何获取 Gemini API 密钥，请参考 Gemini 文档：<a href='https://ai.google.dev/gemini-api/docs/api-key'>https://ai.google.dev/gemini-api/docs/api-key</a></p>",
+    "mistralNoApiKey": "<p>要使用此功能，请在<a href='#runjs-settings'>设置</a>中输入你的 Mistral AI API 密钥。</p><p>关于如何获取 Mistral AI API 密钥，请参考 Mistral AI 文档：<a href='https://docs.mistral.ai/getting-started/quickstart/'>https://docs.mistral.ai/getting-started/quickstart/</a></p>",
+    "anthropicNoApiKey": "<p>要使用此功能，请在<a href='#runjs-settings'>设置</a>中输入你的 Anthropic API 密钥。</p><p>关于如何获取 Anthropic API 密钥，请参考 Anthropic 文档：<a href='https://docs.claude.com/en/api/overview'>https://docs.claude.com/en/api/overview</a></p>",
     "send": "发送（Enter）",
     "enterPrompt": "在此输入提示词"
   },
@@ -265,16 +268,18 @@
     "activityBar": "活动栏",
     "activityBarDescription": "显示活动栏",
     "language": "语言",
-    "english": "英语",
-    "spanish": "西班牙语",
+    "english": "English",
+    "spanish": "Español",
+    "japanese": "日本語",
+    "chinese": "中文",
     "changeAfterRestart": "更改将在重启应用后生效。",
     "transform": "转换",
     "proposals": "提案",
     "topLevelAwait": "顶层 await",
     "topLevelAwaitDescription": "启用顶层 await",
     "topLevelAwaitHint": "顶层 await 与表达式结果功能不兼容。",
-    "aiModel": "OpenAI 模型",
-    "openAiKey": "OpenAI API 密钥"
+    "aiModel": "模型",
+    "aiApiKey": "API 密钥"
   },
   "license": {
     "deactivateLicense": "停用许可证",
