@@ -1,3 +1,16 @@
+### Version 3.2.0 - 28 September 2025
+- Added support for multiple AI providers.
+- Improved NPM configuration via settings.
+- Added an option for font ligatures.
+- Setting a working directory now loads environment variables from .env files.
+- Fixed an issue where files dropped in the editor were displayed in the current tab instead of opening in a new tab.
+- Improved support for adjustable font sizes in the editor and sidebar.
+- Improved UI for the snippets window.
+- Added language support for Chinese and Japanese.
+- Upgraded Node.js to version 22.17.0.
+- Upgraded Chromium to version 138.
+- Upgraded V8 to version 13.8.
+
 ### Version 3.1.2 - 10 May 2025
 - Fix a backwards compatibility issue that affected people downgrading to older RunJS versions.
 
