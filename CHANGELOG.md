@@ -1,3 +1,6 @@
+### Version 3.2.1 - 
+- Improve handling of small font sizes in AI chat input.
+
 ### Version 3.2.0 - 28 September 2025
 - Added support for multiple AI providers.
 - Improved NPM configuration via settings.
