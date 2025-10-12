@@ -1,4 +1,7 @@
-### Version 3.2.1 - 
+### Version 3.2.2 - 12 October 2025
+- Fix performance issues on macOS Tahoe.
+
+### Version 3.2.1 - 05 October 2025
 - Improve handling of small font sizes in AI chat input.
 
 ### Version 3.2.0 - 28 September 2025
