@@ -186,7 +186,7 @@
     "doNotRemind": "今後通知しない",
     "hoverInfo": "ホバー情報",
     "hoverInfoDetail": "コードの上にマウスを移動すると、ドキュメントなどの情報が表示されます",
-    "activateForMagicComments": "RunJS を認証してマジックコメントを有効にする"
+    "activateForMagicComments": "Activate RunJS to enable this feature"
   },
   "preferences": {
     "ai": "AI",

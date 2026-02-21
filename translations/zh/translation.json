@@ -186,7 +186,7 @@
     "doNotRemind": "不再提醒我",
     "hoverInfo": "悬停信息",
     "hoverInfoDetail": "悬停在代码上时查看信息（包括文档）",
-    "activateForMagicComments": "激活 RunJS 以启用魔法注释"
+    "activateForMagicComments": "Activate RunJS to enable this feature"
   },
   "preferences": {
     "ai": "AI",
@@ -272,6 +272,7 @@
     "spanish": "Español",
     "japanese": "日本語",
     "chinese": "中文",
+    "portuguese": "Português",
     "changeAfterRestart": "更改将在重启应用后生效。",
     "transform": "转换",
     "proposals": "提案",

@@ -181,7 +181,7 @@
     "runWithoutLimits": "Ejecuta tu código sin límites",
     "magicComments": "Comentarios mágicos",
     "magicCommentsDetail": "Vea el valor de cualquier expresión en cualquier parte de su código",
-    "activateForMagicComments": "Activar RunJS para habilitar los comentarios mágicos"
+    "activateForMagicComments": "Activa RunJS para habilitar esta función"
   },
   "preferences": {
     "ai": "IA",
@@ -267,6 +267,7 @@
     "spanish": "Español",
     "japanese": "日本語",
     "chinese": "中文",
+    "portuguese": "Português",
     "changeAfterRestart": "Los cambios se aplicarán después de reiniciar la aplicación.",
     "topLevelAwait": "Await de nivel superior",
     "topLevelAwaitDescription": "Habilitar await de nivel superior",

@@ -121,7 +121,7 @@
     "wait": "Wait",
     "tabUnresponsive": "Tab Unresponsive",
     "curentTabUnresponsive": "The current tab has become unresponsive.",
-    "welcome": "/*👋 Welcome to RunJS 🚀\n*\n* To get started, try writing some code\n*\n* For each expression you write, you'll see the result on the right 👉\n*/\n'Hello, World! 🌎';\n\nMath.pow(5, 5);\n\nawait Promise.resolve('Top-level await 🤩');\n\n[1, 2, 3, 4].map(num => num * 2);\n\n// Expressions are logged without needing console.log() 🤯\n\n/*\n* Activate RunJS to remove limits and access more features, including:\n* - installing NPM packages\n* - opening multiple tabs\n* - creating snippets\n* - using Magic Comments // ?\n* - and supporting the continued development of RunJS\n*\n* Happy Coding! 🎉\n*/"
+    "welcome": "/*👋 Welcome to RunJS 🚀\n*\n* To get started, try writing some code\n*\n* For each expression you write, you'll see the result on the right 👉\n*/\n'Hello, World! 🌎';\n\nMath.pow(5, 5);\n\nawait Promise.resolve('Top-level await 🤩');\n\n[1, 2, 3, 4].map(num => num * 2);\n\n// Expressions are logged without needing console.log() 🤯\n\n/*\n* Activate RunJS to remove limits and access more features, including:\n* - installing NPM packages\n* - opening multiple tabs\n* - creating snippets\n* - using magic comments // ?\n* - and supporting the continued development of RunJS\n*\n* Happy Coding! 🎉\n*/"
   },
   "common": {
     "run": "Run",
@@ -183,7 +183,7 @@
     "doNotRemind": "Don't remind me again",
     "hoverInfo": "Hover Information",
     "hoverInfoDetail": "See information, including documentation, when hovering over code",
-    "activateForMagicComments": "Activate RunJS to enable Magic Comments"
+    "activateForMagicComments": "Activate RunJS to enable this feature"
   },
   "preferences": {
     "ai": "AI",
@@ -269,6 +269,7 @@
     "spanish": "Español",
     "japanese": "日本語",
     "chinese": "中文",
+    "portuguese": "Português",
     "changeAfterRestart": "Changes will be applied after restarting the app.",
     "transform": "Transform",
     "proposals": "TC39 Proposals",
