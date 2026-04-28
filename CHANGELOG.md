@@ -1,3 +1,18 @@
+### Version 4.0.0 - 28 April 2026
+
+- Added dedicated runtime environments for Browser & Node.js (default), Node.js only, or Browser only on a per-tab basis.
+- Added a web view in the output panel for browser-enabled environments.
+- Added a new status bar for switching runtime environment, toggling the web view, and changing the tab language between TypeScript, JavaScript, TSX, and JSX. 
+- Added log points, which adds the ability to click the gutter next to any line to log its value in the output panel.
+- Rebuilt the output panel for improved performance, with line numbers shown next to each result and hover-to-highlight in the editor.
+- Settings options have been reorganised and a new 'Editor' tab has been added.
+- Added a new shortcut to show lint error tooltips: Cmd+F1 on macOS, Ctrl+F1 on Windows and Linux.
+- Added a new shortcut to show hover info tooltips: F1 on all platforms.
+- Fixed an issue where AI chat could produce blank responses.
+- Upgraded Node.js to version 24.14.1.
+- Upgraded Chromium to version 146.
+- Upgraded V8 to version 14.6.
+
 ### Version 3.2.2 - 12 October 2025
 - Fix performance issues on macOS Tahoe.
 
