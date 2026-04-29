@@ -1,5 +1,7 @@
-### Version 4.0.0 - 28 April 2026
+### Version 4.0.1 - 29 April 2026
+- Updated app icon for macOS with support for liquid glass.
 
+### Version 4.0.0 - 28 April 2026
 - Added dedicated runtime environments for Browser & Node.js (default), Node.js only, or Browser only on a per-tab basis.
 - Added a web view in the output panel for browser-enabled environments.
 - Added a new status bar for switching runtime environment, toggling the web view, and changing the tab language between TypeScript, JavaScript, TSX, and JSX. 
