@@ -1,3 +1,7 @@
+### Version 4.0.2 - 30 April 2026
+- Fix an issue with mode switching when Vim keys are enabled.
+- Fix an issue that prevented Node types from being resolved by the language server.
+
 ### Version 4.0.1 - 29 April 2026
 - Updated app icon for macOS with support for liquid glass.
 
