@@ -1,3 +1,9 @@
+### Version 4.0.4 - 05 May 2026
+- Fix a Linux build issue
+- Ensure npm has Node in PATH
+- Make web view focusable
+- Fix issue with unclickable dialog buttons on Linux
+
 ### Version 4.0.2 - 30 April 2026
 - Fix an issue with mode switching when Vim keys are enabled.
 - Fix an issue that prevented Node types from being resolved by the language server.
