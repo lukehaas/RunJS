@@ -124,7 +124,7 @@
     "toggleStatusBar": "Status Bar",
     "explainResult": "Explain Result",
     "explainCode": "Explain Code",
-    "welcome": "/*👋 Welcome to RunJS \n*\n* To get started, try writing some code\n* Here are a few examples:\n*/\nconst helloWorld = () => 'Hello, World! 🌎';\n\nhelloWorld();\n\n// You'll see the results output on the right 👉\n\nMath.pow(5, 5);\n\nawait Promise.resolve('Top-level await 🤩');\n\n[1, 2, 3, 4].map(num => num * 2);\n\n/*\n* Activate RunJS to remove limits and access more features, including:\n* - NPM packages\n* - Multiple tabs\n* - Snippets\n* - Log points\n* - and supporting the continued development of RunJS\n*\n* Happy coding! 🙂\n*/"
+    "welcome": "/*👋 Welcome to RunJS \n*\n* To get started, try writing some code\n* Here are a few examples:\n*/\nconst helloWorld = () => 'Hello, World! 🌎';\n\nhelloWorld();\n\n// You'll see the results output on the right 👉\n\nMath.pow(5, 5);\n\nawait Promise.resolve('Top-level await 🤩');\n\n[1, 2, 3, 4].map(num => num * 2);\n\n/*\n* Activate RunJS to remove limits and access more features, including:\n* - NPM packages\n* - Multiple tabs\n* - Snippets\n* - Logpoints\n* - and supporting the continued development of RunJS\n*\n* Happy coding! 🙂\n*/"
   },
   "common": {
     "run": "Run",
@@ -189,8 +189,8 @@
     "codeLimitReached": "Code limit reached",
     "goToLine": "Go to line",
     "moreOptions": "More options",
-    "logPoints": "Log Points",
-    "logPointsDetail": "Add log points to log values without modifying your code",
+    "logpoints": "Logpoints",
+    "logpointsDetail": "Add logpoints to log values without modifying your code",
     "unlockFullAccess": "Join over 10,000 developers who have unlocked full access to RunJS.",
     "saveOpen": "Save and Open Files",
     "environmentVariables": "Environment Variables"
