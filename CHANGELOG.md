@@ -1,3 +1,7 @@
+### version 4.0.5 - 24 May 2026
+- Show getter values for side-effect free getters.
+- Improve console output performance for large data sets.
+
 ### Version 4.0.4 - 05 May 2026
 - Fix a Linux build issue
 - Ensure npm has Node in PATH
