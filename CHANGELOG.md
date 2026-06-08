@@ -1,4 +1,8 @@
-### version 4.0.5 - 24 May 2026
+### Version 4.0.6 - 08 June 2026
+- Improve formatting for copied output results.
+- Resolve issues with stale logpoints being persisted.
+
+### Version 4.0.5 - 24 May 2026
 - Show getter values for side-effect free getters.
 - Improve console output performance for large data sets.
 
