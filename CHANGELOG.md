@@ -1,3 +1,12 @@
+### Version 4.1.0 - 07 July 2026
+- Added a custom provider option to the AI assistant
+- Added an option to control npm install scripts
+- Upgraded Node.js to 24.17.0
+- Upgraded Chromium to 150
+- Upgraded V8 to 15.0
+- Fixed an npm caching issue
+- Fixed an issue where string literals at the top of a file were not shown in the output
+
 ### Version 4.0.6 - 08 June 2026
 - Improve formatting for copied output results.
 - Resolve issues with stale logpoints being persisted.
