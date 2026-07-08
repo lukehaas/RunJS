@@ -337,7 +337,7 @@
     "nameHint": "自動補完のトリガーワードを定義します。",
     "noSnippets": "スニペットはまだありません。\nスニペットを作成するには、追加 (+) をクリックします。",
     "insertSnippet": "スニペットの挿入",
-    "insertSnippetNewTab": "新しいタブにスニペットを挿入"
+    "insertSnippetNewTab": "新しいタブにスニペットを挿入",
     "copySnippet": "スニペットをコピー",
     "copied": "コピーしました！",
     "inserted": "挿入しました！",
