@@ -11,6 +11,7 @@
     "redo": "重做",
     "cut": "剪切",
     "copy": "复制",
+    "copyAll": "复制全部",
     "paste": "粘贴",
     "delete": "删除",
     "selectAll": "全选",
@@ -25,7 +26,7 @@
     "formatCode": "格式化代码",
     "tools": "工具",
     "manageNpmPackages": "管理 NPM 包…",
-    "manageEnvironmentVariables": "变量环境…",
+    "manageEnvironmentVariables": "环境变量…",
     "manageSnippets": "代码片段…",
     "insertSnippet": "插入代码片段",
     "insertSnippetNewTab": "在新标签页插入代码片段",
@@ -123,7 +124,7 @@
     "curentTabUnresponsive": "当前标签页已无响应。",
     "toggleStatusBar": "状态栏",
     "explainResult": "解释结果",
-    "explainCode": "解释代码",
+    "explain": "解释",
     "welcome": "/*👋 欢迎使用 RunJS\n*\n* 要开始使用，请尝试编写一些代码\n* 以下是一些示例：\n*/\nconst helloWorld = () => 'Hello, World! 🌎';\n\nhelloWorld();\n\n// 您将在右侧看到结果输出 👉\n\nMath.pow(5, 5);\n\nawait Promise.resolve('顶级 await 🤩');\n\n[1, 2, 3, 4].map(num => num * 2);\n\n/*\n* 激活 RunJS 以解除限制并访问更多功能，包括：\n* - NPM 包\n* - 多标签页\n* - 代码片段\n* - 日志点\n* - 以及支持 RunJS 的持续开发\n*\n* 祝您编码愉快！🙂\n*/"
   },
   "common": {
@@ -153,6 +154,7 @@
     "geminiAiNoApiKey": "<p>要使用此功能，请在<a href='#runjs-settings'>设置</a>中输入你的 Gemini API 密钥。</p><p>关于如何获取 Gemini API 密钥，请参考 Gemini 文档：<a href='https://ai.google.dev/gemini-api/docs/api-key'>https://ai.google.dev/gemini-api/docs/api-key</a></p>",
     "mistralNoApiKey": "<p>要使用此功能，请在<a href='#runjs-settings'>设置</a>中输入你的 Mistral AI API 密钥。</p><p>关于如何获取 Mistral AI API 密钥，请参考 Mistral AI 文档：<a href='https://docs.mistral.ai/getting-started/quickstart/'>https://docs.mistral.ai/getting-started/quickstart/</a></p>",
     "anthropicNoApiKey": "<p>要使用此功能，请在<a href='#runjs-settings'>设置</a>中输入你的 Anthropic API 密钥。</p><p>关于如何获取 Anthropic API 密钥，请参考 Anthropic 文档：<a href='https://docs.claude.com/en/api/overview'>https://docs.claude.com/en/api/overview</a></p>",
+    "customNoBaseUrl": "<p>要使用此功能，请在<a href='#runjs-settings'>设置</a>中输入 OpenAI 兼容 API 的基础 URL。</p><p>这可以是任何提供 OpenAI 兼容 API 的服务或本地服务器。</p>",
     "send": "发送（Enter）",
     "enterPrompt": "在此输入提示词",
     "browserNode": "浏览器和 Node.js",
@@ -193,7 +195,8 @@
     "logPointsDetail": "添加日志点以在不修改代码的情况下记录值",
     "unlockFullAccess": "加入超过 10,000 名开发者，解锁 RunJS 的完整访问权限。",
     "saveOpen": "保存并打开文件",
-    "environmentVariables": "环境变量"
+    "environmentVariables": "环境变量",
+    "showMore": "再显示 {{count}} 个..."
   },
   "preferences": {
     "ai": "AI",
@@ -310,7 +313,8 @@
     "installError": "安装 {{name}} 时发生错误",
     "removeError": "移除包时发生错误",
     "latest": "最新版本",
-    "installed": "已安装"
+    "installed": "已安装",
+    "allowScripts": "允许安装脚本"
   },
   "snippets": {
     "manageSnippets": "代码片段",

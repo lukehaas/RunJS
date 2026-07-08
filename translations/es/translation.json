@@ -26,6 +26,7 @@
     "layout": "Disposición",
     "installUpdates": "Instalar actualizaciones",
     "copy": "Copiar",
+    "copyAll": "Copiar todo",
     "checkForUpdates": "Comprobar actualizaciones…",
     "actualSize": "Tamaño real",
     "manageNpmPackages": "Paquetes NPM…",
@@ -122,7 +123,7 @@
     "curentTabUnresponsive": "La pestaña actual ha dejado de responder.",
     "toggleStatusBar": "Barra de estado",
     "explainResult": "Explicar resultado",
-    "explainCode": "Explicar código"
+    "explain": "Explicar"
   },
   "common": {
     "close": "Cerrar",
@@ -150,6 +151,7 @@
     "geminiNoApiKey": "<p>Para utilizar esta función, ingrese su clave API de Gemini en la <a href='#runjs-settings'>configuración</a>.</p><p>Para saber cómo obtener una clave API de Gemini, consulte la documentación de Gemini: <a href='https://ai.google.dev/gemini-api/docs/api-key'>https://ai.google.dev/gemini-api/docs/api-key</a></p>",
     "mistralNoApiKey": "<p>Para utilizar esta función, ingrese su clave API de Mistral AI en la <a href='#runjs-settings'>configuración</a>.</p><p>Para saber cómo obtener una clave API de Mistral AI, consulte la documentación de Mistral AI: <a href='https://docs.mistral.ai/getting-started/quickstart/'>https://docs.mistral.ai/getting-started/quickstart/</a></p>",
     "anthropicNoApiKey": "<p>Para utilizar esta función, ingrese su clave API de Anthropic en la <a href='#runjs-settings'>configuración</a>.</p><p>Para saber cómo obtener una clave API de Anthropic, consulte la documentación de Anthropic: <a href='https://docs.claude.com/en/api/overview'>https://docs.claude.com/en/api/overview</a></p>",
+    "customNoBaseUrl": "<p>Para utilizar esta función, ingrese la URL base de una API compatible con OpenAI en la <a href='#runjs-settings'>configuración</a>.</p><p>Esto puede ser cualquier servicio o servidor local que proporcione una API compatible con OpenAI.</p>",
     "send": "Enviar (Enter)",
     "enterPrompt": "Introduzca un mensaje aquí",
     "newChat": "Nuevo chat",
@@ -191,7 +193,8 @@
     "logPointsDetail": "Agrega puntos de registro para registrar valores sin modificar tu código",
     "unlockFullAccess": "Únete a más de 10,000 desarrolladores que han desbloqueado el acceso completo a RunJS.",
     "saveOpen": "Guardar y abrir archivos",
-    "environmentVariables": "Variables de entorno"
+    "environmentVariables": "Variables de entorno",
+    "showMore": "Mostrar {{count}} más..."
   },
   "preferences": {
     "ai": "IA",
@@ -320,7 +323,8 @@
     "name": "Nombre",
     "managePackages": "Paquetes de NPM",
     "latest": "Último",
-    "installed": "Instalado"
+    "installed": "Instalado",
+    "allowScripts": "Permitir scripts de instalación"
   },
   "snippets": {
     "manageSnippets": "Fragmentos de código",

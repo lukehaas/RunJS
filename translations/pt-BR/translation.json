@@ -11,6 +11,7 @@
     "redo": "Refazer",
     "cut": "Recortar",
     "copy": "Copiar",
+    "copyAll": "Copiar Tudo",
     "paste": "Colar",
     "delete": "Excluir",
     "selectAll": "Selecionar Tudo",
@@ -123,7 +124,7 @@
     "curentTabUnresponsive": "A aba atual parou de responder.",
     "toggleStatusBar": "Barra de status",
     "explainResult": "Explicar Resultado",
-    "explainCode": "Explicar Código",
+    "explain": "Explicar",
     "welcome": "/*👋 Bem-vindo ao RunJS\n*\n* Para começar, tente escrever algum código\n* Aqui estão alguns exemplos:\n*/\nconst helloWorld = () => 'Olá, Mundo! 🌎';\n\nhelloWorld();\n\n// Você verá os resultados à direita 👉\n\nMath.pow(5, 5);\n\nawait Promise.resolve('Aguarde de nível superior 🤩');\n\n[1, 2, 3, 4].map(num => num * 2);\n\n/*\n* Ative o RunJS para remover limites e acessar mais recursos, incluindo:\n* - Pacotes NPM\n* - Múltiplas abas\n* - Snippets\n* - Pontos de log\n* - e apoio ao desenvolvimento contínuo do RunJS\n*\n* Boa programação! 🙂\n*/"
   },
   "common": {
@@ -153,6 +154,7 @@
     "geminiNoApiKey": "<p>Para usar este recurso, insira sua chave de API do Gemini nas <a href='#runjs-settings'>configurações</a>.</p><p>Para saber como obter uma chave de API do Gemini, consulte a documentação do Gemini: <a href='https://ai.google.dev/gemini-api/docs/api-key'>https://ai.google.dev/gemini-api/docs/api-key</a></p>",
     "mistralNoApiKey": "<p>Para usar este recurso, insira sua chave de API da Mistral AI nas <a href='#runjs-settings'>configurações</a>.</p><p>Para saber como obter uma chave de API da Mistral AI, consulte a documentação da Mistral AI: <a href='https://docs.mistral.ai/getting-started/quickstart/'>https://docs.mistral.ai/getting-started/quickstart/</a></p>",
     "anthropicNoApiKey": "<p>Para usar este recurso, insira sua chave de API da Anthropic nas <a href='#runjs-settings'>configurações</a>.</p><p>Para saber como obter uma chave de API da Anthropic, consulte a documentação da Anthropic: <a href='https://docs.claude.com/en/api/overview'>https://docs.claude.com/en/api/overview</a></p>",
+    "customNoBaseUrl": "<p>Para usar este recurso, insira a URL base de uma API compatível com OpenAI nas <a href='#runjs-settings'>configurações</a>.</p><p>Isso pode ser qualquer serviço ou servidor local que forneça uma API compatível com OpenAI.</p>",
     "send": "Enviar (Enter)",
     "enterPrompt": "Digite um comando aqui",
     "browserNode": "Navegador e Node.js",
@@ -193,7 +195,8 @@
     "logPointsDetail": "Adicione pontos de registro para registrar valores sem modificar seu código",
     "unlockFullAccess": "Junte-se a mais de 10.000 desenvolvedores que desbloquearam o acesso completo ao RunJS.",
     "saveOpen": "Salvar e Abrir Arquivos",
-    "environmentVariables": "Variáveis de Ambiente"
+    "environmentVariables": "Variáveis de Ambiente",
+    "showMore": "Mostrar mais {{count}}..."
   },
   "preferences": {
     "ai": "IA",
@@ -322,7 +325,8 @@
     "installError": "Ocorreu um erro ao instalar {{name}}",
     "removeError": "Ocorreu um erro ao remover o pacote",
     "latest": "Mais recente",
-    "installed": "Instalado"
+    "installed": "Instalado",
+    "allowScripts": "Permitir scripts de instalação"
   },
   "snippets": {
     "manageSnippets": "Snippets",

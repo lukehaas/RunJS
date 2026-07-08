@@ -11,6 +11,7 @@
     "redo": "やり直し",
     "cut": "切り取り",
     "copy": "コピー",
+    "copyAll": "すべてコピー",
     "paste": "貼り付け",
     "delete": "削除",
     "selectAll": "すべて選択",
@@ -112,7 +113,7 @@
     "renewOrDowngrade": "ライセンスを更新するか、バージョン {{name}} に戻してください。",
     "updateReady": "新しい更新をインストールする準備ができました",
     "updateReadyDetail": "RunJS バージョン {version} がダウンロードされ、インストールする準備ができました",
-    "thankForUsing": "TRunJS をご利用いただきありがとうございます",
+    "thankForUsing": "RunJS をご利用いただきありがとうございます",
     "considerPurchasing": "RunJS が役に立つと思われる場合は、ライセンスを購入して継続的な開発をサポートすることを検討してください。",
     "maybeLater": "後で",
     "export": "エクスポート",
@@ -123,8 +124,8 @@
     "curentTabUnresponsive": "現在のタブが応答しなくなりました。",
     "toggleStatusBar": "ステータスバー",
     "explainResult": "結果を説明",
-    "explainCode": "コードを説明",
-    "welcome": "/*👋 RunJS へようこそ\n*\n* まずはコードを書いてみましょう\n* 以下にいくつかの例を示します。\n*/\nconst helloWorld = () => 'Hello, World! 🌎';\n\nhelloWorld();\n\n// 結果は右側に表示されます 👉\n\nMath.pow(5, 5);\n\nawait Promise.resolve('トップレベルのawait 🤩');\n\n[1, 2, 3, 4].map(num => num * 2);\n\n/*\n* RunJS を有効化すると、制限が解除され、以下の機能を含むより多くの機能を利用できます。\n* - NPM パッケージ\n* - 複数タブ\n* - スニペット\n* - ポイントのログ\n* - RunJS の継続的な開発への支援\n*\n* コーディングを楽しんでください！ 🙂\n*/"
+    "explain": "説明",
+    "welcome": "/*? RunJS へようこそ\n*\n* まずはコードを書いてみましょう\n* 以下にいくつかの例を示します。\n*/\nconst helloWorld = () => 'Hello, World! ?';\n\nhelloWorld();\n\n// 結果は右側に表示されます ?\n\nMath.pow(5, 5);\n\nawait Promise.resolve('トップレベルのawait ?');\n\n[1, 2, 3, 4].map(num => num * 2);\n\n/*\n* RunJS を有効化すると、制限が解除され、以下の機能を含むより多くの機能を利用できます。\n* - NPM パッケージ\n* - 複数タブ\n* - スニペット\n* - ポイントのログ\n* - RunJS の継続的な開発への支援\n*\n* コーディングを楽しんでください！ ?\n*/"
   },
   "common": {
     "run": "実行",
@@ -153,6 +154,7 @@
     "geminiNoApiKey": "<p>この機能を使用するには、 <a href='#runjs-settings'>設定</a>に Gemini API キーを入力してください。</p><p>Gemini APIキーの取得方法については、Gemini のドキュメントを参照してください : <a href='https://ai.google.dev/gemini-api/docs/api-key'>https://ai.google.dev/gemini-api/docs/api-key</a></p>",
     "mistralNoApiKey": "<p>この機能を使用するには、 <a href='#runjs-settings'>設定</a>に Mistral AI API キーを入力してください。</p><p>Mistral AI APIキーの取得方法については、Mistral AIのドキュメントを参照してください : <a href='https://docs.mistral.ai/getting-started/quickstart/'>https://docs.mistral.ai/getting-started/quickstart/</a></p>",
     "anthropicNoApiKey": "<p>この機能を使用するには、 <a href='#runjs-settings'>設定</a>に Anthropic API キーを入力してください。</p><p>Anthropic APIキーの取得方法については、Anthropic のドキュメントを参照してください : <a href='https://docs.claude.com/en/api/overview'>https://docs.claude.com/en/api/overview</a></p>",
+    "customNoBaseUrl": "<p>この機能を使用するには、 <a href='#runjs-settings'>設定</a>に OpenAI 互換 API のベース URL を入力してください。</p><p>これは、OpenAI 互換 API を提供する任意のサービスまたはローカルサーバーで構いません。</p>",
     "send": "送信 (Enter)",
     "enterPrompt": "ここにプロンプトを入力",
     "browserNode": "ブラウザとNode.js",
@@ -193,7 +195,8 @@
     "logPointsDetail": "コードを変更せずに値をログに記録するためのログポイントを追加する",
     "unlockFullAccess": "10,000人以上の開発者が RunJS の完全アクセスを解除しました。",
     "saveOpen": "ファイルを保存して開く",
-    "environmentVariables": "環境変数"
+    "environmentVariables": "環境変数",
+    "showMore": "さらに {{count}} 件表示..."
   },
   "preferences": {
     "ai": "AI",
@@ -322,7 +325,8 @@
     "installError": "{{name}} のインストール中にエラーが発生しました",
     "removeError": "パッケージの削除中にエラーが発生しました",
     "latest": "最新",
-    "installed": "インストール済み"
+    "installed": "インストール済み",
+    "allowScripts": "インストールスクリプトを許可"
   },
   "snippets": {
     "manageSnippets": "スニペット",

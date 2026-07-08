@@ -11,6 +11,7 @@
     "redo": "Redo",
     "cut": "Cut",
     "copy": "Copy",
+    "copyAll": "Copy All",
     "paste": "Paste",
     "delete": "Delete",
     "selectAll": "Select All",
@@ -123,7 +124,7 @@
     "curentTabUnresponsive": "The current tab has become unresponsive.",
     "toggleStatusBar": "Status Bar",
     "explainResult": "Explain Result",
-    "explainCode": "Explain Code",
+    "explain": "Explain",
     "welcome": "/*👋 Welcome to RunJS \n*\n* To get started, try writing some code\n* Here are a few examples:\n*/\nconst helloWorld = () => 'Hello, World! 🌎';\n\nhelloWorld();\n\n// You'll see the results output on the right 👉\n\nMath.pow(5, 5);\n\nawait Promise.resolve('Top-level await 🤩');\n\n[1, 2, 3, 4].map(num => num * 2);\n\n/*\n* Activate RunJS to remove limits and access more features, including:\n* - NPM packages\n* - Multiple tabs\n* - Snippets\n* - Logpoints\n* - and supporting the continued development of RunJS\n*\n* Happy coding! 🙂\n*/"
   },
   "common": {
@@ -153,6 +154,7 @@
     "geminiNoApiKey": "<p>To use this feature, please enter your Gemini API key in the <a href='#runjs-settings'>settings</a>.</p><p>To find out how to get a Gemini API key, please refer to the Gemini documentation: <a href='https://ai.google.dev/gemini-api/docs/api-key'>https://ai.google.dev/gemini-api/docs/api-key</a></p>",
     "mistralNoApiKey": "<p>To use this feature, please enter your Mistral AI API key in the <a href='#runjs-settings'>settings</a>.</p><p>To find out how to get an Mistral AI API key, please refer to the Mistral AI documentation: <a href='https://docs.mistral.ai/getting-started/quickstart/'>https://docs.mistral.ai/getting-started/quickstart/</a></p>",
     "anthropicNoApiKey": "<p>To use this feature, please enter your Anthropic API key in the <a href='#runjs-settings'>settings</a>.</p><p>To find out how to get an Anthropic API key, please refer to the Anthropic documentation: <a href='https://docs.claude.com/en/api/overview'>https://docs.claude.com/en/api/overview</a></p>",
+    "customNoBaseUrl": "<p>To use this feature, please enter the base URL of an OpenAI-compatible API in the <a href='#runjs-settings'>settings</a>.</p><p>This can be any service or local server that provides an OpenAI-compatible API.</p>",
     "send": "Send (Enter)",
     "enterPrompt": "Enter a prompt here",
     "browserNode": "Browser & Node.js",
@@ -193,7 +195,8 @@
     "logpointsDetail": "Add logpoints to log values without modifying your code",
     "unlockFullAccess": "Join over 10,000 developers who have unlocked full access to RunJS.",
     "saveOpen": "Save and Open Files",
-    "environmentVariables": "Environment Variables"
+    "environmentVariables": "Environment Variables",
+    "showMore": "Show {{count}} more..."
   },
   "preferences": {
     "ai": "AI",
@@ -322,7 +325,8 @@
     "installError": "An error occured while installing {{name}}",
     "removeError": "An error occured while removing package",
     "latest": "Latest",
-    "installed": "Installed"
+    "installed": "Installed",
+    "allowScripts": "Allow install scripts"
   },
   "snippets": {
     "manageSnippets": "Snippets",
